@@ -1,0 +1,110 @@
+{
+    "1" :{
+        "name": "Pocket Monster Red/Green/Blue",
+        "gen": "I",
+        "console": "GB",
+        "link": "red_blue_jp.png"
+    },
+    "2" :{
+        "name": "Pokemon Red/Blue/Yellow",
+        "gen": "I",
+        "console": "GB",
+        "link": "red_blue.png"
+    },
+    "3" :{
+        "name": "Pokemon Gold/Silver/Crystal",
+        "gen": "II",
+        "console": "GBC",
+        "link": "gold-silver-crystal.jpeg"
+    },
+    "4" :{
+        "name": "Pokemon Ruby/Sapphire/Emerald",
+        "gen": "III",
+        "console": "GBA",
+        "link": "rse.jpeg"
+    },
+    "5" :{
+        "name": "Pokemon FireRed and LeafGreen",
+        "gen": "III",
+        "console": "GBA",
+        "link": "frlg.jpg"
+    },
+    "6" :{
+        "name": "Pokemon Diamond/Pearl/Platinum",
+        "gen": "IV",
+        "console": "NDS",
+        "link": "dpp.png"
+    },
+    "7" :{
+        "name": "Pokemon HeartGold and SoulSilver",
+        "gen": "IV",
+        "console": "NDS",
+        "link": "hgss.jpg"
+    },
+    "8" :{
+        "name": "Pokemon Black and White",
+        "gen": "V",
+        "console": "NDS",
+        "link": "bww.jpg"
+    },
+    "9" :{
+        "name": "Pokemon Black 2 and White 2",
+        "gen": "V",
+        "console": "NDS",
+        "link": "bw2.jpg"
+    },
+    "10" :{
+        "name": "Pokemon X and Y",
+        "gen": "VI",
+        "console": "3DS",
+        "link": "xy.jpg"
+    },
+    "11" :{
+        "name": "Pokemon Omega Ruby and Alpha Sapphire",
+        "gen": "VI",
+        "console": "3DS",
+        "link": "oras.png"
+    },
+    "12" :{
+        "name": "Pokemon Sun and Moon",
+        "gen": "VII",
+        "console": "3DS",
+        "link": "sm.jpg"
+    },
+    "13" :{
+        "name": "Pokemon Ultra Sun and Ultra Moon",
+        "gen": "VII",
+        "console": "3DS",
+        "link": "usum.png"
+    },
+    "14" :{
+        "name": "Pokemon Let's Go, Pikachu! and Let's Go, Eevee!",
+        "gen": "VII",
+        "console": "NS",
+        "link": "lgpe.png"
+    },
+    "15" :{
+        "name": "Pokemon Sword and Shield",
+        "gen": "VIII",
+        "console": "NS",
+        "link": "ss.png"
+    },
+    "16" :{
+        "name": "Pokemon Brilliant Diamond and Shining Pearl",
+        "gen": "VIII",
+        "console": "NS",
+        "link": "bdsp.png"
+    },
+    "17" :{
+        "name": "Pokemon Legends: Arceus",
+        "gen": "VIII",
+        "console": "NS",
+        "link": "pla.jpg"
+    },
+    "18" :{
+        "name": "Pokemon Scarlet and Violet",
+        "gen": "IX",
+        "console": "NS",
+        "link": "sv.jpg"
+    }
+}

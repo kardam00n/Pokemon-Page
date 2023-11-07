@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Pokemonach</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/script.js" defer></script>
+    <script src="src/mainPage.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Pokemony</h1>
+            <img src="res/menu.png" alt="" onclick="myFunction()">
+        </div>
+        <div id="navBar">
+            <nav>
+                <a class = "navOpt" href="index.html">Czym są pokemony?</a>
+                <a class = "navOpt" href="favourite.html">Moje ulubione pokemony</a>
+                <a class = "navOpt" href="find.html">Znajdź pokemona</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <img src="res/pokemonLogo.png" alt="" id="logo">
+        <div id="about" class="section">
+            <h2>Czym są Pokemony?</h2>
+            <p>Pokemon - to skrót od Pocket Monster. Świat zamieszkany przez słodkie stworki, które towarzyszą ludziom na każdym kroku.
+                Seria znana na całym świecie, akutalnie jedna z największych marek świata.</p>
+            <p>Początek serii to rok 1996, wtedy została wydana pierwsza gra Pokemon - Pokemon Red and Green na Nintendo GameBoy w Japonii. W oryginale mieliśmy do dyspozycji 151 pokemonów. </p>
+            <p>Gry szybko doczekały się również wydania na rynku międzynarodowym w wersji Red and Blue.</p>
+            <p>W podobnym czasie rozpoczęta została emisja serii anime o tym samym tytule, gdzie śledzimy losy Asha oraz jego kompana - Pikachu. Jego przygody widzowie mogli śledzić przez ponad 25 lat.</p>
+            
+            <p>Świat Pokemon to ponad 120 gier, 25 filmów, serie anime, mang, gra karciana oraz dużo dużo więcej.</p>
+            
+            <img src="res/ash.png" alt="" id="ash">
+        </div>
+        <div class="section" id="games">
+            <h2>Gry Pokemon</h2>
+            <p>Jak wspomniałem wyżej, istnieje ponad 100 gier o pokemonach. Ja skupie się na głównej serii, w której skład wchodzą 22 gry wydane na przestrzeni 25 lat</p>
+            <p>Większość z nich ma bardzo podobny schemat. Sterujemy postacią, która ma otrzymać swojego pierwszego pokemona (tzw. startera). Naszym zadaniem jest zostanie Czempionem Pokemon w danym regionie.</p>
+            <p>Aby to osiągnąć musimy zdobyć 8 odznak od trenerów Pokemon, pokonać Elitarną Czwórkę oraz obecnego Czempiona.</p>
+            <p>Bardzo często będziemy mieli do czynienia również z jakąś złą organizacją oraz Legendarnymi Pokemonami</p>
+            <p>Oczywiście potrzebujemy do tego silnej drużyny, co uzyskamy łapiąc dzikie pokemony, trenując je w walce i ewoluując je.</p>
+            <p>Walka w grach Pokemon jest kluczowa. Odbywa się ona turowo. Dodatkowo każdy z ruchów oraz pokemonów ma przydzielony jeden (lub dwa w przypadku pokemona) z osiemnastu dostępnych typów (Np Ogień, Woda)</p>
+            <p>Niekażdy typ ruchu będzie dobry na każdego Pokemona, więc trzeba o typ pamiętać! (Np ogień będzie słaby przeciwko wodzie, ale dobry przeciwko trawie)</p>
+            <table id="gamesList">
+                <tr>
+                    <th style="width: 5%;">Generacja</th>
+                    <th style="width: 40%;">Okładka</th>
+                    <th style="width: 50%;">Nazwa</th>
+                    <th style="width: 5%;">Konsola</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_section">
+            <h4>Kontakt</h4>
+            <p>Dawid Kardacz</p>
+            <p>Telefon: 213700123</p>
+            <p>E-Mail: dkardacz@student.agh.edu.pl</p>
+        </div>
+        <div class="footer_section">
+            <p>Wydział Informatyki</p>
+            <p>Akademia Górniczo-Hutnicza</p>
+            <p>Kraków</p>
+            <p>Kawiory 5</p>
+        </div>
+    </footer>
+</body>
+</html>

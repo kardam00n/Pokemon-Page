@@ -1,0 +1,208 @@
+:root{
+    --BACKGROUND: #b0c4b1;
+    --FONT: #f7e1d7;
+    --PANELBACKGROUND:  #4a5759 ;
+}
+
+
+*{
+    color: var(--FONT);
+}
+
+body{
+    background-color: var(--BACKGROUND);
+}
+
+header{
+    background-color: var(--PANELBACKGROUND);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: 10%;
+    height: 75%;
+    filter: invert(98%) sepia(97%) saturate(761%) hue-rotate(293deg) brightness(110%) contrast(94%);
+}
+
+#navBar{
+    display: none;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: none;
+    margin-bottom: 15px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main table{
+    width: 100%;
+}
+
+main table img{
+    max-height: 150px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+main table td{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#findPokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#pokemonInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pokemonInfo img{
+    width: 40%;
+}
+
+#pokemonInfo p{
+    font-weight: bold;
+    font-size: large;
+}
+
+#pokemonForm input{
+    color: black;
+}
+
+#types{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.typeTitle{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.pokeTitle{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.type{
+    background-color: var(--PANELBACKGROUND);
+    border-radius: 30px;
+    margin: 30px;
+    padding-bottom: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type img{
+    width: 50%;
+}
+
+#logo{
+    width: 30%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.section{
+    background-color: var(--PANELBACKGROUND);
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+}
+
+#ash{
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+footer{
+    background-color: var(--PANELBACKGROUND);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.footer_section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (min-width: 700px) {
+    header img{
+        display: none;
+    }
+
+    #navBar{
+        display: block;
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    nav a{
+        display: block;
+        margin-bottom: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    footer{
+        flex-direction: row;
+    }
+}
